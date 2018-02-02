@@ -20,7 +20,7 @@
   },
 
 	"require": {
-		"ircmaxell/random-lib": "^1.2",
+		"paragonie/random-lib": "^2.0",
 		"pimple/pimple": "^3.0"
 	},
 
