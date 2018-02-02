@@ -1,0 +1,31 @@
+{
+	"name": "germania-kg/random",
+
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Carsten Witt",
+			"email": "carstenwitt@germania-kg.de",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Germania\\Random\\": "src/"
+		}
+	},
+
+  "autoload-dev": {
+      "psr-4": { "tests\\": "tests/src" }
+  },
+
+	"require": {
+		"ircmaxell/random-lib": "^1.2",
+		"pimple/pimple": "^3.0"
+	},
+
+	"require-dev": {
+		"satooshi/php-coveralls": "^1.0",
+		"phpunit/phpunit": "^5.7|^6.0"
+	}
+}
