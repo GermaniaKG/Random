@@ -75,6 +75,7 @@ Returns the default length of generated random strings.
 $length = $dic['RandomGenerator.Length'];
 ```
 
+
 ## Unit tests
 
 Either copy `phpunit.xml.dist` to `phpunit.xml` and adapt to your needs, or leave as is. 
