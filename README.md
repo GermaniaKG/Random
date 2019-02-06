@@ -3,9 +3,11 @@
 **[Pimple Service Provider](https://pimple.symfony.com/#extending-a-container) for creating a Random Generator from ircmaxells' [RandomLib](https://github.com/ircmaxell/RandomLib)**
 
 
-[![Build Status](https://travis-ci.org/GermaniaKG/Random.svg?branch=master)](https://travis-ci.org/GermaniaKG/Random)
-[![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/Random/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/Random/?branch=master)
+[![Packagist](https://img.shields.io/packagist/v/germania-kg/random.svg?style=flat)](https://packagist.org/packages/germania-kg/random)
+[![PHP version](https://img.shields.io/packagist/php-v/germania-kg/random.svg)](https://packagist.org/packages/germania-kg/random)
+[![Build Status](https://img.shields.io/travis/GermaniaKG/Random.svg?label=Travis%20CI)](https://travis-ci.org/GermaniaKG/Random)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GermaniaKG/Random/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/Random/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/GermaniaKG/Random/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/Random/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/GermaniaKG/Random/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GermaniaKG/Random/build-status/master)
 
 
@@ -76,12 +78,21 @@ $length = $dic['RandomGenerator.Length'];
 ```
 
 
-## Unit tests
-
-Either copy `phpunit.xml.dist` to `phpunit.xml` and adapt to your needs, or leave as is. 
-Run [PhpUnit](https://phpunit.de/) like this:
+## Development
 
 ```bash
+$ git clone https://github.com/GermaniaKG/Random.git
+$ cd Random
+$ composer install
+```
+
+## Unit tests
+
+Either copy `phpunit.xml.dist` to `phpunit.xml` and adapt to your needs, or leave as is. Run [PhpUnit](https://phpunit.de/) test or composer scripts like this:
+
+```bash
+$ composer test
+# or
 $ vendor/bin/phpunit
 ```
 
